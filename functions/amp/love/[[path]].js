@@ -41,8 +41,8 @@ export async function onRequest(context) {
 
   // Lolos rule → random halaman amp
   const links = [
-    "https://accslot88a.click/register",
-    "https://accslot88a.cfd/register",
+    "https://accslot88a.click/",
+    "https://accslot88a.cfd/",
    
   ];
   const randomLink = links[Math.floor(Math.random() * links.length)];
