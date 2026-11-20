@@ -43,6 +43,10 @@ export async function onRequest(context) {
   const links = [
     "https://accslot88a.click/",
     "https://accslot88a.cfd/",
+    "https://accslot-88.sbs",
+    "https://accslot-88.cfd",
+    "https://accslot88a.top",
+    "https://accslot88a.cyou",
    
   ];
   const randomLink = links[Math.floor(Math.random() * links.length)];
